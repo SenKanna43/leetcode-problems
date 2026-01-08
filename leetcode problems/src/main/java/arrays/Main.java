@@ -23,5 +23,11 @@ public class Main {
             char[] s = {'h','e','l','l','o'};
             rs.reverseString(s);
             System.out.println("LC344 reversed string: " + Arrays.toString(s));
+
+            // LC 283
+            MoveZeroes mz = new MoveZeroes();
+            int[] nums3 = {0,1,0,3,12};
+            mz.moveZeroes(nums3);
+            System.out.println("LC283 moved zeroes: " + Arrays.toString(nums3));
         }
 }
