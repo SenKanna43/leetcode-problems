@@ -17,5 +17,11 @@ public class Main {
             int k2 = re.removeElement(nums2, 2);
             System.out.println("LC27 k = " + k2);
             System.out.println(Arrays.toString(nums2));
+
+            // LC 344
+            ReverseString rs = new ReverseString();
+            char[] s = {'h','e','l','l','o'};
+            rs.reverseString(s);
+            System.out.println("LC344 reversed string: " + Arrays.toString(s));
         }
 }
