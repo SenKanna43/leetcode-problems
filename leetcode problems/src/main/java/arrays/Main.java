@@ -29,5 +29,11 @@ public class Main {
             int[] nums3 = {0,1,0,3,12};
             mz.moveZeroes(nums3);
             System.out.println("LC283 moved zeroes: " + Arrays.toString(nums3));
+
+            // LC 125
+            IsPalindrome vp = new IsPalindrome();
+            String str = "A man, a plan, a canal: Panama";
+            boolean isPalindrome = vp.isPalindrome(str);
+            System.out.println("LC125 is palindrome: " + isPalindrome);
         }
 }
