@@ -37,11 +37,24 @@ public class Main {
             boolean isPalindrome = vp.isPalindrome(str);
             System.out.println("LC125 is palindrome: " + isPalindrome);
 
+            //LC 167
             TwoSumII ts = new TwoSumII();
-            int[] numbers = {2,7,11,15};
+            int[] nums4 = {2,7,11,15};
             int target = 9;
-            int[] twoSum = ts.twoSum(numbers,target);
+            int[] twoSum = ts.twoSum(nums4,target);
             System.out.println("LC167 two sum II: " + Arrays.toString(twoSum));
 
+            //LC 977
+            SortedSquares ss = new SortedSquares();
+            int[] nums5 = {-4,-1,0,3,10};
+            int[] sortedSquares = ss.sortedSquares(nums5);
+            System.out.println("LC977 sortedSquares: " + Arrays.toString(sortedSquares));
+
+            //LC 643
+            MaxAverageOne ma = new MaxAverageOne();
+            int[] nums6 = {1,12,-5,-6,50,3};
+            int k = 4;
+            double findMaxAvg = ma.findMaxAverage(nums6, k);
+            System.out.println("LC643 Max Avg I : " + findMaxAvg);
         }
 }
