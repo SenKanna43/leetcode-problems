@@ -32,8 +32,16 @@ public class Main {
 
             // LC 125
             IsPalindrome vp = new IsPalindrome();
-            String str = "A man, a plan, a canal: Panama";
+//          String str = "A man, a plan, a canal: Panama";
+            String str = ".,";
             boolean isPalindrome = vp.isPalindrome(str);
             System.out.println("LC125 is palindrome: " + isPalindrome);
+
+            TwoSumII ts = new TwoSumII();
+            int[] numbers = {2,7,11,15};
+            int target = 9;
+            int[] twoSum = ts.twoSum(numbers,target);
+            System.out.println("LC167 two sum II: " + Arrays.toString(twoSum));
+
         }
 }
