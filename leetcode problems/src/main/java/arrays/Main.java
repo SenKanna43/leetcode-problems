@@ -63,5 +63,12 @@ public class Main {
             int k3 = 3;
             boolean containsNearbyDuplicate = cd.containsNearbyDuplicate(nums7, k3);
             System.out.println("LC219 Contains Duplicate: " + containsNearbyDuplicate);
+
+            //LC 3
+            LengthOfLongestSubstring ls = new LengthOfLongestSubstring();
+            String s1 = "abcabcbb";
+            int lengthOfLongestSubstring = ls.lengthOfLongestSubstring(s1);
+            System.out.println("Longest sub string without repeating characters: " + lengthOfLongestSubstring);
+
         }
 }
