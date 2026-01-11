@@ -70,5 +70,11 @@ public class Main {
             int lengthOfLongestSubstring = ls.lengthOfLongestSubstring(s1);
             System.out.println("Longest sub string without repeating characters: " + lengthOfLongestSubstring);
 
+            //LC 209
+            MinSizeSubarraySum ms = new MinSizeSubarraySum();
+            int[] nums8 = {2,3,1,2,4,3};
+            int target1 = 7;
+            int minSubArrayLen = ms.minSubArrayLen(nums8,target1);
+            System.out.println("Min subarray sum length: " + minSubArrayLen);
         }
 }
