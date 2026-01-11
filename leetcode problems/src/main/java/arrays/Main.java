@@ -56,5 +56,12 @@ public class Main {
             int k = 4;
             double findMaxAvg = ma.findMaxAverage(nums6, k);
             System.out.println("LC643 Max Avg I : " + findMaxAvg);
+
+            //LC 219
+            ContainsDuplicateTwo cd = new ContainsDuplicateTwo();
+            int[] nums7 = {1,2,3,1};
+            int k3 = 3;
+            boolean containsNearbyDuplicate = cd.containsNearbyDuplicate(nums7, k3);
+            System.out.println("LC219 Contains Duplicate: " + containsNearbyDuplicate);
         }
 }
