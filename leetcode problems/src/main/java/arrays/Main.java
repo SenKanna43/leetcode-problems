@@ -76,5 +76,13 @@ public class Main {
             int target1 = 7;
             int minSubArrayLen = ms.minSubArrayLen(nums8,target1);
             System.out.println("Min subarray sum length: " + minSubArrayLen);
+
+            //LC 242
+            ValidAnagrams va = new ValidAnagrams();
+            String str2 ="anagram";
+            String str3 ="nagaram";
+            boolean validAnagram = va.validAnagram(str2, str3);
+            System.out.println("Valid Anagram: " + validAnagram );
+
         }
 }
