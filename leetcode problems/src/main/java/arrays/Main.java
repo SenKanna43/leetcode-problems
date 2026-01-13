@@ -68,27 +68,34 @@ public class Main {
             LengthOfLongestSubstring ls = new LengthOfLongestSubstring();
             String s1 = "abcabcbb";
             int lengthOfLongestSubstring = ls.lengthOfLongestSubstring(s1);
-            System.out.println("Longest sub string without repeating characters: " + lengthOfLongestSubstring);
+            System.out.println("LC3 Longest sub string without repeating characters: " + lengthOfLongestSubstring);
 
             //LC 209
             MinSizeSubarraySum ms = new MinSizeSubarraySum();
             int[] nums8 = {2,3,1,2,4,3};
             int target1 = 7;
             int minSubArrayLen = ms.minSubArrayLen(nums8,target1);
-            System.out.println("Min subarray sum length: " + minSubArrayLen);
+            System.out.println("CL209 in subarray sum length: " + minSubArrayLen);
 
             //LC 242
             ValidAnagrams va = new ValidAnagrams();
             String str2 ="anagram";
             String str3 ="nagaram";
             boolean validAnagram = va.validAnagram(str2, str3);
-            System.out.println("Valid Anagram: " + validAnagram );
+            System.out.println("LC242 Valid Anagram: " + validAnagram );
 
             //LC 169
             MajorityElement me = new MajorityElement();
             int[] nums9 = {2,2,1,1,1,2,2};
             int majorityElement = me.majorityElement(nums9);
-            System.out.println("Majority element: " + majorityElement);
+            System.out.println("LC129 Majority element: " + majorityElement);
+
+            //LC 1
+            TwoSum ts1 = new TwoSum();
+            int[] nums10 = {2,7,11,15};
+            int target2 = 9;
+            int[] twoSum1 = ts1.twoSum(nums10, target2);
+            System.out.println("LC1 two sum: " + Arrays.toString(twoSum1));
 
         }
 }
