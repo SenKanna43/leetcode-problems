@@ -84,5 +84,11 @@ public class Main {
             boolean validAnagram = va.validAnagram(str2, str3);
             System.out.println("Valid Anagram: " + validAnagram );
 
+            //LC 169
+            MajorityElement me = new MajorityElement();
+            int[] nums9 = {2,2,1,1,1,2,2};
+            int majorityElement = me.majorityElement(nums9);
+            System.out.println("Majority element: " + majorityElement);
+
         }
 }
